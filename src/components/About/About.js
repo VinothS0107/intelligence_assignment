@@ -41,7 +41,7 @@ function About() {
       <p className={`description-para ${currentState[0]}`}>
         Having good health is part of being fit.Fitness means a healthy body
         which is not ridden with diseases, gets sufficient sleep and is active{" "}
-        <p className="anchor-show" onClick={() => readLess()}>
+        <a href="#" onClick={() => readLess()}>
           Read Less
         </p>
       </p>
