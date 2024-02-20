@@ -1,0 +1,139 @@
+.about-container {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.description-heading {
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.description-para {
+    color: #393737;
+    font-size: 13px;
+    margin-top: 5px;
+
+}
+
+.read-more {
+    display: none;
+}
+
+.read-less {
+    display: block;
+}
+
+.anchor-show {
+    display: inline-block;
+
+}
+
+.anchor-hide {
+    display: none;
+}
+
+.gym-owner-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.owner-name-profile-details {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.owner-profile {
+    width: 40px;
+    height: 40px;
+
+}
+
+.owner-image {
+    border-radius: 50%;
+}
+
+.owner-name {
+    font-size: 15px;
+
+}
+
+.designation {
+    font-size: 13px;
+    color: #393737;
+}
+
+.owner-contact-details-container {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+
+.owner-contact {
+    background-color: #d0e7ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.icons {
+    color: #5f0fab;
+    font-size: 20px;
+}
+
+.facility-list-parent-container {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+
+
+}
+
+.list-facilities-details {
+    width: 97%;
+}
+
+.list-facilites-icons {
+    background-color: #d0e7ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+
+}
+
+.facilities-heading {
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.svg{
+    fill: #5f0fab !important;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address-link{
+    color: #5f0fab;
+    font-size: 13px;
+    font-weight: 700;
+}
+.horizontal-line{
+    margin-bottom: 20px;
+}

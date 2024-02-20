@@ -1,0 +1,18 @@
+.list-menu-container{
+    min-width: 90px;
+
+}
+.listed-menu{
+   color: black;
+   text-decoration: none;
+  
+    
+} 
+.active {
+    display: block;
+    font-size: 15px;
+    border-bottom: 4px solid blueviolet ;
+    border-radius: 3px;
+    min-width: 90px !important;
+
+}

@@ -1,0 +1,20 @@
+.Footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid lightgrey;
+    border-radius: 20px;
+    box-shadow: 0px -1px 1px lightgrey;
+}
+.button_book{
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    background-color: #5f0fab;
+    color: #ffffff;
+}
+span{
+    color: #5f0fab;
+    font-weight: 700;
+}
