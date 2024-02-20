@@ -18,19 +18,27 @@
 
 .read-more {
     display: none;
+   
 }
 
 .read-less {
-    display: block;
+    display: inline-block;
+   
+
 }
 
 .anchor-show {
     display: inline-block;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
 
 }
 
 .anchor-hide {
     display: none;
+    color: blue;
+    text-decoration: underline;
 }
 
 .gym-owner-details-container {

@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route,Navigate} from "react-router-dom";
 import About from "./components/About/About";
 import MenuBar from "./components/MenuBar/MenuBar";
 import Trainer  from "./components/Trainer/Trainer";
@@ -29,6 +29,7 @@ const homeImage = [
   { id: 4, imageUrl: "./assets/home4.jpg", menu: "Review" },
 ];
 function App() {
+
 
   return (
     <div className="container">
@@ -100,7 +101,9 @@ function App() {
           ))}
         </ul>
       </div>
+
       <Routes>
+        <Route path="*" element={<Navigate to="/About" />} />
         <Route path="/About" element={<About />} />
         <Route path="/Trainer" element={<Trainer />} />
         <Route path="/Gallery" element={<Gallery />} />

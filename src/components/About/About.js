@@ -34,16 +34,16 @@ function About() {
         Fitness refers to a good physical condition which includes being in a
         good shape, burning excess fat in the body and consuming an appropriate
         diet.
-        <a href="#" className={currentState[1]} onClick={() => readMore()}>
+        <p className={currentState[1]} onClick={() => readMore()}>
           Read more
-        </a>
+        </p>
       </p>
       <p className={`description-para ${currentState[0]}`}>
         Having good health is part of being fit.Fitness means a healthy body
         which is not ridden with diseases, gets sufficient sleep and is active{" "}
-        <a href="#" onClick={() => readLess()}>
+        <p className="anchor-show" onClick={() => readLess()}>
           Read Less
-        </a>
+        </p>
       </p>
       <h1 className="description-heading">GYM Owner</h1>
       <div className="gym-owner-details-container">
